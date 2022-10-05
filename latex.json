@@ -34,7 +34,7 @@
 	},
 
 	"inline math": {
-		"prefix": "$",
+		"prefix": "mt",
 		"body": "$$1$$0",
 		"description": "inline math mode"
 	},
@@ -69,10 +69,11 @@
 			"\\newcommand{\\R}{\\mathbb{R}}",
 			"\\newcommand{\\C}{\\mathbb{C}}",
 			"\\newcommand{\\F}{\\mathbb{F}}",
-			"\\newcommand{\\P}{\\mathbb{P}}",
+			"\\newcommand{\\pb}{\\mathbb{P}}",
 			"\\newcommand{\\inv}{^{-1}}",
 			"\\newcommand{\\floor}[1]{\\lfloor#1\\rfloor}",
 			"\\newcommand{\\ceil}[1]{\\lceil#1\\rceil}",
+            "\\newcommand{\\problem}[1]{\\newpage\\subsection*{Problem #1}}",
 			"\n",
 			"\\begin{document}\n\t$0\n\\end{document}"
 		],
