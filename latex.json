@@ -1,4 +1,10 @@
 {
+	"changeline": {
+		"prefix": "\\\\",
+		"body": "\\\\\\\n$0",
+		"description": "change line"
+	},
+
 	"quote": {
 		"prefix": "``",
 		"body": "``$1''$0",
